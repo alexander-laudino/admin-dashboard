@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.sidebar p {
+  font-size: 1.25rem;
+}
+
 #dash-icon {
   width: 45px;
 }
