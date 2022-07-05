@@ -95,3 +95,23 @@ ul.settings {
   width: 50px;
   border-radius: 25px;
 }
+
+.main-header-bottom-left {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 15px;
+  gap: 15px;
+}
+
+#large-profile {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+
+.user-greeting {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 5px;
+}
