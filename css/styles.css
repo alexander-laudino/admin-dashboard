@@ -63,7 +63,6 @@ ul.settings {
   display: grid;
   grid-template-columns: 6fr 4fr;
   grid-template-rows: 2fr 3fr;
-  box-shadow: 0px 2px 0px 0px rgba(125, 125, 125, .75);
 }
 
 .main-header-top-left {
@@ -74,7 +73,7 @@ ul.settings {
 }
 
 #find-project {
-  background-color: lightgray;
+  background-color: rgba(125, 125, 125, .3);
   border-radius: 12.5px;
   border: none;
   height: 30px;
@@ -131,4 +130,22 @@ button[type="button"] {
   border: none;
   background-color: rgba(0, 140, 255, 0.9);
   color: #FFF;
+}
+
+.main-content {
+  background-color: rgba(125, 125, 125, .3);
+  box-shadow: 0 -3px rgba(125, 125, 125, .4);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 15px;
+}
+
+.main-content-left {
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+}
+
+.main-content-right {
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr 4fr;
 }
