@@ -115,3 +115,20 @@ ul.settings {
   justify-content: center;
   gap: 5px;
 }
+
+.main-header-bottom-right {
+  display: flex;
+  padding-right: 90px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+button[type="button"] {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(0, 140, 255, 0.9);
+  color: #FFF;
+}
