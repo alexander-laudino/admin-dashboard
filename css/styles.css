@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .container {
   height: 100vh;
   display: grid;
@@ -176,7 +181,7 @@ button[type="button"] {
   background-color: #FFF;
   margin: 5px;
   border-radius: 5px;
-  box-shadow: -7px 0 rgba(255, 190, 0, 0.945), -5px 4px 0px 0px rgba(125, 125, 125, .2);
+  box-shadow: -7px 0 rgba(255, 190, 0, 0.945), -3px 4px 0px 0px rgba(125, 125, 125, .2), 2px 0px rgba(125, 125, 125, .2);
   display: grid;
   padding: 30px 25px 25px 25px;
   grid-template-rows: 1fr 60px 1fr;
@@ -203,4 +208,22 @@ button[type="button"] {
   grid-template-rows: 1fr 6fr 1fr 6fr;
   padding-right: 25px;
   row-gap: 10px;
+}
+
+.announcements {
+  background-color: #FFF;
+  padding: 30px 25px 25px 25px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 0px 0px rgba(125, 125, 125, .2);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.trending {
+  background-color: #FFF;
+  padding: 25px 25px 25px 25px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 0px 0px rgba(125, 125, 125, .2);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
