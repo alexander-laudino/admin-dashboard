@@ -118,8 +118,8 @@ ul.settings {
 
 .main-header-bottom-right {
   display: flex;
-  padding-right: 90px;
-  justify-content: space-between;
+  padding-right: 80px;
+  justify-content: space-evenly;
   align-items: center;
   gap: 25px;
 }
@@ -159,7 +159,35 @@ button[type="button"] {
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-auto-columns: 1fr 1fr;
+  gap: 30px;
+  overflow: auto;
+  padding-left: 10px;
+}
+
+.project {
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: -7px 0 rgba(255, 190, 0, 0.945);
+  display: grid;
+  padding: 30px 25px 25px 25px;
+  grid-template-rows: 1fr 75px 1fr;
+}
+
+.project-title {
+  font-size: 1.25rem;
+}
+
+.project-desc {
+  color: rgba(125, 125, 125, .9);
+  font-weight: 500;
+}
+
+.project-icons {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+  gap: 25px;
 }
 
 .main-content-right {
