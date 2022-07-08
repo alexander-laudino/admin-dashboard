@@ -212,11 +212,23 @@ button[type="button"] {
 
 .announcements {
   background-color: #FFF;
-  padding: 30px 25px 25px 25px;
+  padding: 25px 25px 25px 25px;
   border-radius: 5px;
   box-shadow: 2px 4px 0px 0px rgba(125, 125, 125, .2);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 2px;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.announcement.middle {
+  border-top: 2px solid rgba(125, 125, 125, .5);
+  border-bottom: 2px solid rgba(125, 125, 125, .5);
 }
 
 .trending {
